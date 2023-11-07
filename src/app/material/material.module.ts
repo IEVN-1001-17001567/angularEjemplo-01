@@ -13,6 +13,10 @@ import { MatExpansionModule} from '@angular/material/expansion';
 @NgModule({
   declarations: [],
 
+  imports: [
+    CommonModule
+  ],
+
   exports:[
     MatButtonModule,
     MatDividerModule,
@@ -24,10 +28,5 @@ import { MatExpansionModule} from '@angular/material/expansion';
     MatExpansionModule,
   ],
 
-
-  imports: [
-    CommonModule
-
-  ]
 })
 export class MaterialModule { }

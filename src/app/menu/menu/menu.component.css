@@ -1,4 +1,4 @@
-.contenido-padre{
+.contenedor-padre{
     display: flex;
     flex-flow: column;
     height: 100%;
